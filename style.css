@@ -1,4 +1,11 @@
+/* Normalize https://necolas.github.io/normalize.css/ */
+@import url("./vendor/normalize.css");
 
+/* body styles */
+@import url("./styles/body.css");
+/* header styles */
 @import url("./styles/header.css");
+/* main styles */
 @import url("./styles/main.css");
+/* footer styles */
 @import url("./styles/footer.css");
