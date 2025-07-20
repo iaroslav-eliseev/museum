@@ -1,0 +1,78 @@
+/* *** Welcome styles *** */
+
+.welcome {
+  height: 810px;
+  margin: 0 auto;
+  background-color: #030303;
+  color: #ffffff;
+}
+
+.welcome__container {
+  width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.welcome__content {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 598px;
+  z-index: 999;
+}
+
+.welcome__title {
+  font-family: 'Forum', serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.welcome__text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  margin: 25px 0 0 0;
+}
+
+
+.welcome__button {
+  border: none;
+  background: none;
+  box-shadow: none;
+
+  margin: 75px 0 0 0;
+  padding: 0;
+  width: 360px;
+  height: 75px;
+  background-color: #710707;
+  border-radius: 10px;
+  color: #ffffff;
+
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 5%;
+}
+
+.welcome__button:hover {
+  background-color: #9D8665;
+}
+
+.welcome__slider-pagination {
+  width: 1000px;
+  height: 810px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.welcome__slider-image {
+
+}
