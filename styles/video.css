@@ -1,0 +1,104 @@
+.video {
+  width: 1440px;
+  margin: 75px auto;
+}
+
+.video__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.video__content {
+  width: 100%;
+  height: 165px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.video__title {
+  width: 605px;
+  margin: 0;
+
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-size: 68px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9d8665;
+}
+
+.video__text {
+  width: 720px;
+  margin: 0;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38.5px;
+  letter-spacing: 0;
+  color: #000000;
+}
+
+.video__main-video {
+  width: 100%;
+  height: 650px;
+  border: none;
+}
+
+.video__player {
+  width: 100%;
+  height: 85px;
+  background-color: #030303;
+}
+
+.video__video-sequence {
+  width: 1440px;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.video__small-window {
+  width: 452px;
+  height: 254px;
+  border: none;
+}
+
+.video__slider {
+  width: 200px;
+  height: 12px;
+  margin: 0;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.video__slider-arrow {
+  all: unset; /* Убирает все стили по умолчанию */
+  cursor: pointer; /* Чтобы курсор был как у кнопки */
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.video__slider-dot {
+  all: unset; /* Убирает все стили по умолчанию */
+  cursor: pointer; /* Чтобы курсор был как у кнопки */
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
