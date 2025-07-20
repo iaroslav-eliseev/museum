@@ -1,0 +1,103 @@
+.visiting {
+  margin: 75px auto;
+  padding: 0;
+  width: 1440px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  text-align: left;
+}
+
+.visiting__title {
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 16px;
+
+  font-family: 'Forum', serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9D8665;
+}
+
+.visiting__line {
+  background-color: #710707;
+}
+
+/* Красная линия под заголовком */
+.visiting__line--title {
+  width: 1440px;
+  height: 3px;
+}
+
+/* Grid-контейнер */
+.visiting__grid {
+  margin: 75px 0 0 0;
+  width: 1440px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(440px, 424px));
+  gap: 60px;
+}
+
+/* Одна карточка */
+.visiting__card {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Изображение */
+.visiting__image {
+  width: 440px;
+  height: 285px;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+/* Название */
+.visiting__name {
+  font-family: 'Forum', serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 3.5px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+/* Красная линия под h3 */
+.visiting__line--card {
+  width: 300px;
+  height: 2px;
+}
+
+/* Тип тура */
+.visiting__type {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+/* Ссылка */
+.visiting__source {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-decoration: none;
+  color: #030303;
+}
+
+.visiting__source:hover {
+  color: #9D8665;
+}
+
+.visiting__source:active {
+  color: #7E6C51;
+}

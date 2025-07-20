@@ -1,0 +1,73 @@
+.explore {
+  height: 865px;
+  background-color: #030303;
+  color: #fff;
+  align-items: center;
+}
+
+.explore__container {
+  width: 1440px;
+  height: 715px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 1440px;
+  margin: 0 auto;
+  padding: 75px 0;
+  align-items: center;
+}
+
+.explore__content {
+  width: 660px;
+  height: 715px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.explore__title {
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 90px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.explore__divider {
+  width: 100%;
+  height: 3px;
+  background-color: #710707;
+  margin: 25px 0 75px 0;
+}
+
+.explore__text {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 38.5px;
+  letter-spacing: 0;
+  margin: 0 0 25px 0;
+}
+
+.explore__highlight {
+  color: #9d8665;
+  /* font-weight: bold; */
+}
+
+.explore__image-wrapper {
+  width: 720px;
+  height: 700px;
+  margin: 15px 0 0 0;
+}
+
+.explore__image {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}

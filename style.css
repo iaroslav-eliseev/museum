@@ -6,6 +6,8 @@
 /* header styles */
 @import url("./styles/header.css");
 /* main styles */
-@import url("./styles/main.css");
+@import url("./styles/welcome.css");
+@import url("./styles/visiting.css");
+@import url("./styles/explore.css");
 /* footer styles */
 @import url("./styles/footer.css");

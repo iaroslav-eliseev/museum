@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Louvre</title>
-    <link rel="shortcut icon" href="./images/favicon/favicon.ico" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon/favicon.ico"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -60,7 +64,11 @@
               to the Louvre
             </h2>
             <p class="welcome__text">From the castle to the museum</p>
-            <button class="welcome__button">Discover the Louvre</button>
+            <a
+              href="https://www.google.com/maps/@48.8618159,2.3366818,3a,75y,81.55h,73.4t/data=!3m7!1e1!3m5!1sAF1QipOVxZQuSy3Bx9T_HpH_7FtBHDTXvI6SF-A10ocT!2e10!3e12!7i5472!8i2736"
+              target="_blank"
+              ><button class="welcome__button">Discover the Louvre</button></a
+            >
           </div>
           <div class="welcome__slider-pagination">
             <img
@@ -71,7 +79,7 @@
           </div>
         </div>
       </section>
-
+      <!-- Visiting -->
       <section class="visiting">
         <h2 class="visiting__title">Virtual Tour</h2>
         <div class="visiting__line visiting__line--title"></div>
@@ -162,18 +170,47 @@
           </div>
         </div>
       </section>
+      <!-- Explore -->
+      <section class="explore">
+        <div class="explore__container">
+          <div class="explore__content">
+            <h2 class="explore__title">Picture Explore</h2>
+            <div class="explore__divider"></div>
+            <p class="explore__text">
+              Las Meninas is a 1656 painting by Diego Velázquez, the leading
+              artist of the Spanish Golden Age.
+            </p>
+            <p class="explore__text">
+              It was cleaned in 1984 to remove a
+              <span class="explore__highlight">"yellow veil"</span> of dust that
+              had gathered since the previous restoration in the 19th century.
+            </p>
+            <p class="explore__text">
+              The cleaning provoked furious protests, not because the picture
+              had been damaged in any way, but because it looked different.
+            </p>
+          </div>
+          <div class="explore__image-wrapper">
+            <img
+              src="./images/explore/Picture_explore.jpg"
+              alt="Las Meninas before and after restoration"
+              class="explore__image"
+            />
+          </div>
+        </div>
+      </section>
 
-      <section class="explore"></section>
-
+      <!-- Video -->
       <section class="video"></section>
-
+      <!-- Gallery -->
       <section class="gallery"></section>
-
+      <!-- Tickets -->
       <section class="tickets"></section>
-
+      <!-- Contacts -->
       <section class="contacts"></section>
     </main>
 
+    <!-- Footer -->
     <footer class="footer"></footer>
   </body>
 </html>
