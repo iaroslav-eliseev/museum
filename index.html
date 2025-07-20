@@ -4,8 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Louvre</title>
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="./images/favicon/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="body">
     <!-- *** HEADER *** -->
@@ -14,7 +20,7 @@
         <div class="header__logo">
           <img
             class="header__logo-image"
-            src="./images/Frame.svg"
+            src="./images/header/Frame.svg"
             alt="the Louvre pyramid"
           />
           <h1 class="header__title">Louvre</h1>
@@ -49,21 +55,113 @@
       <section class="welcome">
         <div class="welcome__container">
           <div class="welcome__content">
-            <h2 class="welcome__title">Welcome<br> to the Louvre</h2>
+            <h2 class="welcome__title">
+              Welcome<br />
+              to the Louvre
+            </h2>
             <p class="welcome__text">From the castle to the museum</p>
             <button class="welcome__button">Discover the Louvre</button>
           </div>
           <div class="welcome__slider-pagination">
             <img
               class="welcome__slider-image"
-              src="./images/1.jpg"
+              src="./images/welcome/Mona_Lisa.jpg"
               alt="Image of the painting “Mona Lisa”"
             />
           </div>
         </div>
       </section>
 
-      <section class="visiting"></section>
+      <section class="visiting">
+        <h2 class="visiting__title">Virtual Tour</h2>
+        <div class="visiting__line visiting__line--title"></div>
+
+        <div class="visiting__grid">
+          <div class="visiting__card">
+            <img
+              src="./images/visiting/Royal_Palace.jpg"
+              alt="Royal Palace"
+              class="visiting__image"
+            />
+            <h3 class="visiting__name">Royal Palace</h3>
+            <div class="visiting__line visiting__line--card"></div>
+            <p class="visiting__type">360° Virtual Tour</p>
+            <a href="#" class="visiting__source" target="_blank"
+              >Google Street Panorama View</a
+            >
+          </div>
+
+          <div class="visiting__card">
+            <img
+              src="./images/visiting/Denon_Wing.jpg"
+              alt="Denon Wing"
+              class="visiting__image"
+            />
+            <h3 class="visiting__name">Denon Wing</h3>
+            <div class="visiting__line visiting__line--card"></div>
+            <p class="visiting__type">360° Virtual Tour</p>
+            <a href="#" class="visiting__source" target="_blank"
+              >Google Street Panorama View</a
+            >
+          </div>
+
+          <div class="visiting__card">
+            <img
+              src="./images/visiting/Colonnade_Perrault.jpg"
+              alt="Colonnade Perrault"
+              class="visiting__image"
+            />
+            <h3 class="visiting__name">Colonnade Perrault</h3>
+            <div class="visiting__line visiting__line--card"></div>
+            <p class="visiting__type">360° Virtual Tour</p>
+            <a href="#" class="visiting__source" target="_blank"
+              >Google Street Panorama View</a
+            >
+          </div>
+
+          <div class="visiting__card">
+            <img
+              src="./images/visiting/Greek_hall.jpg"
+              alt="Greek Hall"
+              class="visiting__image"
+            />
+            <h3 class="visiting__name">Greek Hall</h3>
+            <div class="visiting__line visiting__line--card"></div>
+            <p class="visiting__type">360° Virtual Tour</p>
+            <a href="#" class="visiting__source" target="_blank"
+              >Google Street Panorama View</a
+            >
+          </div>
+
+          <div class="visiting__card">
+            <img
+              src="./images/visiting/Mona_Lisa.jpg"
+              alt="Mona Lisa"
+              class="visiting__image"
+            />
+            <h3 class="visiting__name">Mona Lisa</h3>
+            <div class="visiting__line visiting__line--card"></div>
+            <p class="visiting__type">360° Virtual Tour</p>
+            <a href="#" class="visiting__source" target="_blank"
+              >Google Street Panorama View</a
+            >
+          </div>
+
+          <div class="visiting__card">
+            <img
+              src="./images/visiting/Night_Palace.jpg"
+              alt="Night Palace"
+              class="visiting__image"
+            />
+            <h3 class="visiting__name">Night Palace</h3>
+            <div class="visiting__line visiting__line--card"></div>
+            <p class="visiting__type">360° Virtual Tour</p>
+            <a href="#" class="visiting__source" target="_blank"
+              >Google Street Panorama View</a
+            >
+          </div>
+        </div>
+      </section>
 
       <section class="explore"></section>
 
